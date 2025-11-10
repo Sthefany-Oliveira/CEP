@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Busca CEP</title>
+    <title>BUSCA CEP</title>
 </head>
 <body>
     <!-- container conteudo principal -->
@@ -16,12 +16,14 @@
              pattern= -->
             <input placeholder="Digite o CEP(somente números)" type="text"  id="input-cep" required maxlength="8"
             pattern="\d{8}">
-            <button type="submit">Buscar</button>
+            <button onclick="buscarCep(event)" type="submit">Buscar</button>
         </form>
 
-        <div id="resultado" class="resultado">
+        <div id="resultado">
 
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
