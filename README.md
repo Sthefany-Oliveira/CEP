@@ -1,1 +1,1 @@
-cep- em processo
+cep- oficial
